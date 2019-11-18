@@ -1,0 +1,20 @@
+{
+  "name": "Clothes-Store",
+  "version": "1.0.0",
+  "description": "SASS Practice",
+  "main": "index.js",
+  "scripts": {
+    "watch": "node-sass -o css scss/main.scss -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlgjsk/Clothes-Store.git"
+  },
+  "keywords": [],
+  "author": "Ana Simin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mlgjsk/Clothes-Store/issues"
+  },
+  "homepage": "https://github.com/mlgjsk/Clothes-Store#readme"
+}
