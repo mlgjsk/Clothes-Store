@@ -1,15 +1,19 @@
+.heading {
+  grid-column: 4/7;
+  grid-row: 2/3; }
+  .heading-text {
+    font-family: "Great Vibes", cursive;
+    font-size: 6rem;
+    font-weight: lighter;
+    letter-spacing: 0.3rem;
+    text-align: center; }
+
 .logo {
   grid-column: 1/2;
   grid-row: 1/2;
   padding: 1rem; }
   .logo-img {
     width: 10rem; }
-
-.heading {
-  grid-column: 4/7;
-  grid-row: 2/3; }
-  .heading-text {
-    font-family: "Great-Vibes", cursive; }
 
 .header {
   grid-column: 1/-1;
@@ -18,6 +22,39 @@
   grid-template-columns: 1fr repeat(7, minmax(min-content, 16rem)) 1fr;
   grid-template-rows: repeat(3, min-content);
   grid-gap: 2rem; }
+
+.first-nav {
+  grid-column: 7/10;
+  grid-row: 1/2; }
+  .first-nav-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%; }
+  .first-nav-item {
+    list-style: none; }
+  .first-nav-link {
+    color: color(primary);
+    text-decoration: none;
+    font-size: 1.8rem; }
+
+.second-nav {
+  grid-column: 3/8;
+  grid-row: 3/4; }
+  .second-nav-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%; }
+  .second-nav-item {
+    list-style: none; }
+  .second-nav-link {
+    color: color(primary);
+    text-decoration: none;
+    font-size: 1.8rem; }
+
+.dropdown {
+  display: none; }
 
 * {
   margin: 0;
